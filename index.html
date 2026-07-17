@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Retro Snake Game - Play Free Online Arcade Classic</title>
+    <meta name="description" content="Play a cozy, retro-themed Snake game right in your browser! Guide your snake, eat delicious apples, and beat your high score. Mobile-friendly with no downloads required.">
+    <meta name="keywords" content="snake game, retro snake, play snake online, browser snake game, free arcade games, mobile friendly snake game, classic snake">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yourdomain.com/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:title" content="Retro Snake Game - Play Free Online Arcade Classic">
+    <meta property="og:description" content="Eats apples, grow bigger, and beat your high score in this classic, mobile-friendly browser game.">
+    <meta property="og:image" content="https://yourdomain.com/snake-preview.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://yourdomain.com/">
+    <meta name="twitter:title" content="Retro Snake Game - Play Free Online Arcade Classic">
+    <meta name="twitter:description" content="Classic, cozy, retro-themed Snake game. Play directly in your browser on mobile or desktop!">
+    <meta name="twitter:image" content="https://yourdomain.com/snake-preview.jpg">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Retro Snake Game",
+      "operatingSystem": "Any",
+      "applicationCategory": "GameApplication",
+      "genre": "Arcade",
+      "browserRequirements": "Requires HTML5 compatible browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Your Name"
+      },
+      "description": "A classic retro arcade snake game optimized for mobile and desktop screens."
+    }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="snake.jpg" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <h1 class="visually-hidden">Retro Snake Game Online - Free Classic Arcade Browser Game</h1>
+
+        <section>
+            <div class="infos">
+                <div class="info">
+                    <h3>High Score:</h3>
+                    <span id="high-score">0</span>
+                </div>
+                <div class="info">
+                    <h3>Score:</h3>
+                    <span id="score">0</span>
+                </div>
+                <div class="info">
+                    <h3>Time:</h3>
+                    <span id="time">00-00</span>
+                </div>
+            </div>
+            
+            <div class="board" aria-label="Game Board"></div>
+
+            <div class="mobile-controls" aria-label="Mobile Controls">
+                <button class="control-btn up-btn" data-dir="up" aria-label="Move Up">▲</button>
+                <div class="middle-row">
+                    <button class="control-btn left-btn" data-dir="left" aria-label="Move Left">◀</button>
+                    <button class="control-btn right-btn" data-dir="right" aria-label="Move Right">▶</button>
+                </div>
+                <button class="control-btn down-btn" data-dir="down" aria-label="Move Down">▼</button>
+            </div>
+
+            <footer class="game-footer">
+                Designed & Developed by <span class="developer-name">Muhammad Rabeet Ali</span>
+            </footer>
+        </section>
+        
+        <div class="modal" role="dialog" aria-modal="true">
+            <div class="start-game">
+                <h2>Welcome to Snake Game</h2>
+                <button class="start-btn">Start Game</button>
+            </div>
+            <div class="restart-game">
+                <h2 id="gb">Game Over</h2>
+                <button class="restart-btn">Restart Game</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
